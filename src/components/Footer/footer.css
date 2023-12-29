@@ -43,4 +43,7 @@
     .left,.right{
         padding: 2rem 0;
     }
+    .location, .phone, .mail, .footer-details, .footer-logo{
+        padding-left: 10px;
+    }
 }
