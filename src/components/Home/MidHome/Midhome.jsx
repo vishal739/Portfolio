@@ -7,7 +7,7 @@ const Midhome = () => {
     return (
         <div className="bottom-container">
             <div className="bottom-intro">
-                <h1>WORK, I CAN DO FOR YOU</h1>
+                <h1>WORK, WE CAN DO FOR YOU</h1>
             </div>
             <div className="bottom-products">
                 <div className="box">

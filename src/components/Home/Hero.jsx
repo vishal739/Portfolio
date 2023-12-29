@@ -13,15 +13,15 @@ const Hero = () => {
                     <img className="into-img" src={image} alt="developer.png" />
                 </div>
                 <div className="hero-intro">
-                    <p>Hi, I'M A FREELANCER</p>
-                    <h1>Front-End Developer</h1>
+                    <p>Welcome to DROiD DEVS, your gateway to exceptional development services!</p>
+                    <h1>Elevate Your Digital Presence</h1>
                     <div className="intro-btns">
                         <Link to="/projects" className="btn">PROJECTS</Link>
                         <Link to="/contact" className="btn btn-light">CONTACT</Link>
                     </div>
                 </div>
             </div>
-            <Midhome/>
+            <Midhome />
             <Footer />
         </>
     )
