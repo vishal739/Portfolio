@@ -1,0 +1,42 @@
+.bottom-container {
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-intro {
+    color: white;
+    position: relative;
+    max-width: 100%;
+    background-color: #282e34;
+    font-size: 1rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.bottom-products {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 100px;
+    margin: 50px auto;
+}
+
+.bottom-container .box {
+    width: 320px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    transition: 0.2s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 3px 6px rgba(1, 1, 1, 0.2);
+    transition: 0.2s ease-in-out;
+}
+
+.work-name {
+    text-align: center;
+    font-weight: bold;
+}
