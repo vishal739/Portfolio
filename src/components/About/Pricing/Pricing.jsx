@@ -18,7 +18,7 @@ const Pricing = () => {
                             <li>Responsive Design</li>
                             <li>Upto 6-Month Free Maintenance</li>
                         </ul>
-                        {/* <a href="#" class="read">sign up</a> */}
+                        <button className="pr-btn">Purchase Now</button>
                     </div>
 
                 </div>
@@ -37,8 +37,8 @@ const Pricing = () => {
                             <li>Featured</li>
                             <li>Responsive Design</li>
                             <li>Upto 9-Month Free Maintenance</li>
+                            <button className="pr-btn">Purchase Now</button>
                         </ul>
-                        {/* <a href="#" class="read">sign up</a> */}
                     </div>
 
                 </div>
@@ -58,8 +58,8 @@ const Pricing = () => {
                             <li>Featured</li>
                             <li>Responsive Design</li>
                             <li>Upto 12-Month Free Maintenance</li>
+                            <button className="pr-btn">Purchase Now</button>
                         </ul>
-                        {/* <a href="#" class="read">sign up</a> */}
                     </div>
                 </div>
 

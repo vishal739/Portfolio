@@ -153,18 +153,21 @@
     border-bottom: none
 }
 
-.pricingTable10 .read {
+.pricingTable10 .pr-btn {
     display: inline-block;
     font-size: 16px;
     color: #fff;
     text-transform: uppercase;
-    background: #d9d9d8;
+    background-color: #40c4db;
+    border: 1px solid #40c4db;
     padding: 8px 25px;
     margin: 30px 0;
     transition: all .3s ease 0s
 }
 
-.pricingTable10 .read:hover {
+.pricingTable10 .pr-btn:hover {
+    background-color: #4d4d4d;
+    border: 1px solid #4d4d4d;
     text-decoration: none
 }
 
@@ -178,3 +181,4 @@
     }
 
 }
+
