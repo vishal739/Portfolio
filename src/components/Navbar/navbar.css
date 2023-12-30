@@ -1,4 +1,4 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,40 +10,50 @@
     height: 90px;
     z-index: 4;
 }
-.navLogo{
+
+.navLogo {
     margin-left: 10px;
-    font-size: 1.5rem;
-    font-weight: 400;
+    font-size: 1.8rem; /* Slightly Larger Font Size */
+    font-weight: 600; /* Bolder Font Weight */
+    color: #ffffff;
+    text-decoration: none; /* Remove Underline */
 }
-.navBar{
+
+.navBar {
     display: flex;
     justify-content: space-around;
-    align-items: none;
+    align-items: center;
     list-style: none;
-    color: #626262;
     gap: 2rem;
     margin-right: 1.5rem;
 }
 
-.navBar li a{
+.navBar li a {
     cursor: pointer;
-    font-size: 1.2rem;
-    font-weight: 500;
-}
-a, a:link {
+    font-size: 1.3rem; /* Slightly Larger Font Size */
+    font-weight: 600; /* Bolder Font Weight */
     color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
 }
-.hamburger{
+
+.navBar li a:hover {
+    color: #f39c12; /* Change Color on Hover to a Shade of Orange */
+}
+
+.hamburger {
     display: none;
+    cursor: pointer;
 }
-@media screen and (max-width: 1040px){
-    .navBar{
+
+@media screen and (max-width: 1040px) {
+    .navBar {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
         height: 100vh;
-        background-color: rgba(0,0,0,0.8);
+        background-color: rgba(0, 0, 0, 0.8);
         position: absolute;
         left: -100%;
         top: 0;
@@ -51,19 +61,23 @@ a, a:link {
         z-index: 3;
         transition: 0.3s;
     }
-    .navBar.active{
-        left:0;
+
+    .navBar.active {
+        left: 0;
     }
-    .navBar li{
+
+    .navBar li {
         padding: 1rem 0;
     }
 
-    .navBar li a{
-        font-size: 2rem;
+    .navBar li a {
+        font-size: 2.2rem; /* Slightly Larger Font Size */
     }
 
-    .hamburger{
+    .hamburger {
         display: initial;
         z-index: 4;
+        color: #ffffff;
+        font-size: 1.8rem; /* Slightly Larger Font Size */
     }
 }
