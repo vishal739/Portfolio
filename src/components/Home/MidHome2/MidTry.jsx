@@ -1,9 +1,17 @@
 import React from 'react';
 import "./midtry.css";
+import { motion } from 'framer-motion';
+
 
 const MidTry = (props) => {
     return (
         <>
+            <motion.div
+                className="midtry-container"
+                initial="offscreen"
+                whileInView="onscreen"
+                viewport={{ once: true, amount: 0.8 }}
+            ></motion.div>
             <div className="midtry-container">
                 <div className="my-2 mx-auto position-relative bg-white shadow-1 blue-hover" style={{ width: '320px', overflow: 'hidden', borderRadius: '1px' }}>
                     <img src={props.image} alt={props.alt} className="d-block w-full" />

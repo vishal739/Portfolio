@@ -17,7 +17,7 @@ const Hero = () => {
                     <h1>Elevate Your Digital Presence</h1>
                     <div className="intro-btns">
                         <Link to="/projects" className="btn">PROJECTS</Link>
-                        <Link to="/contact" className="btn btn-light">CONTACT</Link>
+                        <Link to="/contact" className="btn-light">CONTACT</Link>
                     </div>
                 </div>
             </div>
