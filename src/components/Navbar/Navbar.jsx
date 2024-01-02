@@ -4,12 +4,6 @@ import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { useState } from 'react';
 
-import { motion } from "framer-motion"
-
-const variants = {
-  open: { opacity: 1, x: 0 },
-  closed: { opacity: 0, x: "-100%" },
-}
 
 const Navbar = () => {
     const [navClick, setNavClick] = useState(true);
@@ -21,12 +15,7 @@ const Navbar = () => {
     }
     return (
         <>
-        {/* <motion.div
-        initial="closed" // Set the initial animation state
-        animate={navClick ? 'closed' : 'open'} // Use the motion state based on navClick
-        variants={variants} // Use the provided variants
-        className="navbar-container"
-         ></motion.div> */}
+        
         <div className="navbar-container">
             <div className="header">
                 <Link className='navLogo' to="/">DROiD DEVS</Link>
