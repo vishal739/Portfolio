@@ -7,11 +7,11 @@ const Footer = () => {
             <div className="left">
                 <div className="location">
                     <FaHome size={25} style={{ color: "#fff", marginRight: '2rem' }} />
-                    <h4>Kolkata, West Bengal</h4>
+                    <h4>Indore, Madhya Pardesh</h4>
                 </div>
                 <div className="phone">
                     <FaPhone size={25} style={{ color: "#fff", marginRight: '2rem' }} />
-                    <h4>+91-8777021460</h4>
+                    <h4>+91-8964919528</h4>
                 </div>
                 <div className="mail">
                     <FaMailBulk size={25} style={{ color: "#fff", marginRight: '2rem' }} />
@@ -21,7 +21,7 @@ const Footer = () => {
             <div className="right">
                 <div className="footer-details">
                     <h4>About the Company</h4>
-                    <p>Welcome to DROiD DEVS, where innovation meets expertise! I'm Vishal Kumar Singh, the proud CEO and Founder. At our company, we thrive on embracing challenging projects and turning visionary ideas into reality. With a passion for excellence, we are dedicated to delivering cutting-edge solutions that exceed expectations. Join us on a journey of creativity, collaboration, and unparalleled commitment to your success.</p>
+                    <p>Welcome to DROiD DEVS, where innovation meets expertise! I'm Kratika Jain, the proud CEO and Founder. At our company, we thrive on embracing challenging projects and turning visionary ideas into reality. With a passion for excellence, we are dedicated to delivering cutting-edge solutions that exceed expectations. Join us on a journey of creativity, collaboration, and unparalleled commitment to your success.</p>
 
                 </div>
                 <div className="footer-logo">
